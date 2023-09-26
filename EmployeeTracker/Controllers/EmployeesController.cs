@@ -6,6 +6,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeTracker.Controllers
 {
+    //just adding some text to learn git branching and merging################################
+    //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    //zzzzzzzzzzzzzzz4444444444444
+    //$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
     public class EmployeesController : Controller
     {
         //dependancy injection
