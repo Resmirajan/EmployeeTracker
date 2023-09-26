@@ -1,7 +1,12 @@
+using EmployeeTracker.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<MVCDemoDBContect>(option =>
+option.UseSqlServer(builder.Configuration.GetConnectionString("MvcConnectionString")));
 
 var app = builder.Build();
 
